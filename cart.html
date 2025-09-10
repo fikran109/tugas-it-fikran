@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Keranjang Belanja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Keranjang Belanja</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="cart.html">Keranjang</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main class="cart-container">
+    <h2>Produk dalam Keranjang</h2>
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-summary">
+      <h3>Ringkasan Belanja</h3>
+      <p>Subtotal: <span id="subtotal">Rp0</span></p>
+      <p>Ongkir: <span id="shipping">Rp20.000</span></p>
+      <hr>
+      <p class="total">Total: <span id="total">Rp0</span></p>
+      <a href="checkout.html"><button class="checkout-btn">Lanjut ke Checkout</button></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Faithsop.az.ko</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

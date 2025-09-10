@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="cart.html">Keranjang</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main class="checkout-container">
+    <!-- Formulir Checkout -->
+    <div class="checkout-form">
+      <h2>Data Pemesan</h2>
+      <form onsubmit="return checkout(event)">
+        <label>Nama Lengkap</label>
+        <input type="text" id="nama" required>
+
+        <label>Alamat Lengkap</label>
+        <textarea id="alamat" rows="3" required></textarea>
+
+        <label>Nomor Telepon</label>
+        <input type="text" id="telepon" required>
+
+        <label>Metode Pembayaran</label>
+        <select id="pembayaran" required>
+          <option value="">-- Pilih --</option>
+          <option value="transfer">Transfer Bank</option>
+          <option value="cod">Bayar di Tempat (COD)</option>
+          <option value="ewallet">E-Wallet</option>
+        </select>
+
+        <button type="submit" class="checkout-btn">Pesan Sekarang</button>
+      </form>
+    </div>
+
+    <!-- Ringkasan Belanja -->
+    <div class="checkout-summary">
+      <h2>Ringkasan Belanja</h2>
+      <div id="checkoutItems"></div>
+      <p>Subtotal: <span id="subtotal">Rp0</span></p>
+      <p>Ongkir: <span id="shipping">Rp20.000</span></p>
+      <hr>
+      <p class="total">Total: <span id="total">Rp0</span></p>
+    </div>
+  </main>
+
+  <!-- Kontak Toko -->
+  <section class="contact-section">
+    <h2>Kontak Toko</h2>
+    <p><strong>Alamat:</strong> Jl. sukaraja no 21 kebon anggur , jakarta </p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/6289654038254" target="_blank">+62 896-5403-8254</a></p>
+    <p><strong>Email:</strong> <a href="mailto:tokoonline@example.com">faithshop.az.ko</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Toko Online Sederhana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faithshop.az.ko - Beranda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🛒 Faithshop.az.ko</div>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="cart.html">Keranjang</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Daftar Produk</h2>
+    <div class="product-grid">
+      <!-- Produk 1 -->
+      <div class="product-card">
+        <img src="https://www.digimap.co.id/cdn/shop/files/iPhone_15_Pink_PDP_Image_Position-1__GBEN_863e22ef-a1c6-4031-8bf7-1ac9a9c5a086.jpg?v=1717731724&width=1920" alt="Produk A">
+        <h3>iPhone 15</h3>
+        <p class="price">Rp16.000.000</p>
+        <button onclick="addToCart('iPhone 15', 16000000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 2 -->
+      <div class="product-card">
+        <img src="https://static4.hurtel.com/hpeciai/8dfffaf359ad08c8abaad8b7c82d5b2a/eng_pm_Baseus-EasyJourney-Series-small-travel-bag-phone-pouch-headphones-and-other-small-items-gray-135778_9.jpg" alt="Produk B">
+        <h3>Baseus EasyJourney Travel Aksesoris Kit (tas kecil / pouch)</h3>
+        <p class="price">Rp75.000</p>
+        <button onclick="addToCart('Produk B', 75000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 3 -->
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwsQ1pbM2jDrAwiniSrF-awcRzy2BruAMtN2ZTMXz_kKFuYY9KkAf1ELU68wRIeWJrRs&usqp=CAU" alt="Produk C">
+        <h3>Fashion Watch
+</h3>
+        <p class="price">Rp100.000</p>
+        <button onclick="addToCart('Produk C', 100000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 4 -->
+      <div class="product-card">
+        <img src="https://p16-oec-va.ibyteimg.com/tos-maliva-i-o3syd03w52-us/50796f103f6c4aa882c64af9758f97dd~tplv-o3syd03w52-resize-webp:800:800.webp" alt="Produk D">
+        <h3>Kalung Fashion Wanita</h3>
+        <p class="price">Rp120.000</p>
+        <button onclick="addToCart('Produk D', 120000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 5 -->
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtckzioHXZrX7PM_gCpKXFD-nJ7LSzcD2zJA&s" alt="Produk E">
+        <h3>House of smith dompet pria</h3>
+        <p class="price">Rp150.000</p>
+        <button onclick="addToCart('Produk E', 150000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 6 -->
+      <div class="product-card">
+        <img src="https://www.hargagrosiran.com/media/images/uploads2/www.hargagrosiran.com/202110/ART-040_SOHA_Toolkit_112_Pcs_1_Set_Box_Kotak_Alat_Perkakas_Bor_Listrik_Palu_Tang_Obeng_Kunci_Pas_TOOLS_Mekanik_Rumah_Tangga_Toolset_Toolbox_Tool_Kit_(1).jpg" alt="Produk F">
+        <h3>toolkit rumah tangga ( set box )</h3>
+        <p class="price">Rp200.000</p>
+        <button onclick="addToCart('Produk F', 200000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 7 -->
+      <div class="product-card">
+        <img src="https://cdn.wasserman.eu/generated/images/s240/1120214/ipega-pg-9220-gaming-controller-black-bluetooth-gamepad-pc-playstation-3" alt="Produk G">
+        <h3>Gamepad Wireless (Ipega / Gamesir entry level</h3>
+        <p class="price">Rp250.000</p>
+        <button onclick="addToCart('Produk G', 250000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 8 -->
+      <div class="product-card">
+        <img src="https://images.somethinc.com/uploads/products/thumbs/800x800/EYESHADOW-PALETTE_THE-NOBLES-Eyeshadow-Palette-01.jpg" alt="Produk H">
+        <h3>THE NOBLES Eyeshadow Palette Volume 1</h3>
+        <p class="price">Rp300.000</p>
+        <button onclick="addToCart('Produk H', 300000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 9 -->
+      <div class="product-card">
+        <img src="https://img.id.my-best.com/product_images/5d38a9a2680ad7a330ba92bdeb4e164e.png?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=24377d406f21aaf276b5bf4a18aeca27" alt="Produk I">
+        <h3>Sepatu Sneakers Anak Branded</h3>
+        <p class="price">Rp400.000</p>
+        <button onclick="addToCart('Produk I', 400000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 10 -->
+      <div class="product-card">
+        <img src="https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/10296147_4.jpg" alt="Produk J">
+        <h3>Rak Buku 4 Susun</h3>
+        <p class="price">Rp500.000</p>
+        <button onclick="addToCart('Produk J', 500000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 11 -->
+      <div class="product-card">
+        <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/medium/catalog-image/115/MTA-178489825/br-m036969-01511_idealife-electric-blender-gelas-kaca-1-5-lt-pelumat-listrik-il-220a_full01-dd660304.jpg" alt="Produk K">
+        <h3>Glass Electric Blender Set IL-220A</h3>
+        <p class="price">Rp600.000</p>
+        <button onclick="addToCart('Produk K', 600000)">Tambah ke Keranjang</button>
+      </div>
+      <!-- Produk 12 -->
+      <div class="product-card">
+        <img src="https://ae01.alicdn.com/kf/Hb8589a20c15b4fb3bd1bdc5acdedf6eex.jpg_960x960.jpg" alt="Produk L">
+        <h3>Jam Dinding Kayu Modern + Dekorasi</h3>
+        <p class="price">Rp750.000</p>
+        <button onclick="addToCart('Produk L', 750000)">Tambah ke Keranjang</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Faithshop.az.ko</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
